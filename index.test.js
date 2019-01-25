@@ -1,6 +1,6 @@
 const index = require('./index.js')
 const res = {
-    send: jest.fn()
+    end: jest.fn()
 };
 
 const req = jest.fn();
@@ -9,6 +9,6 @@ const req = jest.fn();
 test('something',()=>{
     index(req, res)
 
-    expect(res.send).toHaveBeenCalledWith('Hello World!');
+    expect(res.end).toHaveBeenCalledWith('Hello from Node.js on Now 2.0!');
 });
 

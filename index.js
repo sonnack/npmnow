@@ -1,3 +1,3 @@
 module.exports = (req, res) => {
-        res.send(`Hello World!`);
-    }
+    res.end(`Hello from Node.js on Now 2.0!`);
+};
