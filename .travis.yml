@@ -1,6 +1,10 @@
 language: node_js
 node_js:
   - "node"
+stages:
+  - compile
+  - test
+  - deploy
 cache:
   directories:
     - "node_modules" # This will tell Travis CI to cache the dependencies

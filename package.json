@@ -1,0 +1,25 @@
+{
+  "name": "npmnow",
+  "version": "1.0.0",
+  "description": "practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonnack/npmnow.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonnack/npmnow/issues"
+  },
+  "homepage": "https://github.com/sonnack/npmnow#readme",
+  "dependencies": {
+    "jest": "^24.0.0"
+  }
+}
