@@ -7,7 +7,7 @@ const req = jest.fn();
 
 
 test('something',()=>{
-    index.main(req, res)
+    index(req, res)
 
     expect(res.send).toHaveBeenCalledWith('Hello World!');
 });

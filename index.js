@@ -1,5 +1,3 @@
-module.exports = {
-    main: (req, res) => {
+module.exports = (req, res) => {
         res.send(`Hello World!`);
     }
-}
