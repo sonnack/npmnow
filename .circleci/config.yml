@@ -85,6 +85,9 @@ jobs:
     steps:
       - *attach_workspace
       - run:
+          name: Install Now CLI
+          command: sudo npm install now
+      - run:
           name: Deploy to Now
           command: now
 
