@@ -89,7 +89,7 @@ jobs:
           command: sudo npm install --global --unsafe-perm now
       - run:
           name: Deploy to Now
-          command: now --token $ZEIT_TOKEN && now --token $ZEIT_TOKEN alias
+          command: now --token $ZEIT_TOKEN
 
 workflows:
   version: 2
