@@ -86,10 +86,10 @@ jobs:
       - *attach_workspace
       - run:
           name: Install Now CLI
-          command: sudo npm install now
+          command: sudo npm install --global --unsafe-perm now
       - run:
           name: Deploy to Now
-          command: now
+            command: now --token $ZEIT_TOKEN && now --token $ZEIT_TOKEN alias
 
 workflows:
   version: 2
