@@ -9,6 +9,6 @@ const req = jest.fn();
 test('something',()=>{
     index(req, res)
 
-    expect(res.end).toHaveBeenCalledWith('Hello from Node.js on Now 2.0!');
+    expect(res.end).toHaveBeenCalledWith('Hello from Shawn and Jones!');
 });
 
